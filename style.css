@@ -68,9 +68,9 @@ body{
     font-size: 9px;
     color: white;
     letter-spacing: 1.8px;
-    display: flex; /* Додаємо flexbox для вирівнювання тексту */
-    justify-content: center; /* Вирівнюємо текст по горизонталі */
-    align-items: center; /* Вирівнюємо текст по вертикалі */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
     border-radius: 50px;
     margin-left: 400px;
     float: left;
@@ -109,9 +109,9 @@ body{
 
 .icon-container {
     display: flex;
-    justify-content: flex-start; /* Вирівнює іконки зліва */
-    align-items: flex-end; /* Вирівнює іконки знизу */
-    margin-top: 60px; /* Відступ зверху для контейнера з іконками */
+    justify-content: flex-start; 
+    align-items: flex-end; 
+    margin-top: 60px; 
     margin-left: 300px;
 }
 
@@ -124,10 +124,10 @@ body{
 
 @keyframes pulse {
     0%, 100% {
-        transform: scale(1); /* Початковий і кінцевий розмір */
+        transform: scale(1); 
     }
     50% {
-        transform: scale(1.2); /* Максимальний розмір */
+        transform: scale(1.2); 
     }
 }
 
